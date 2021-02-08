@@ -1,0 +1,277 @@
+/*------ 基本設定 ------*/
+.overflow-hidden{
+    /*overflow: hidden;*/
+}
+.wrapper{
+    width:100%;
+}
+.container{
+    max-width: 1200px;
+    min-width: 1170px;
+    margin: 0 auto;
+}
+/*------ /基本設定 ------*/
+/*------ header ------*/
+.header {
+    height:80px;
+    /*background-color: red;*/
+}
+.header-logo{
+    float:left;
+    width:21%;
+    /*background-color: cornsilk;*/
+}
+h3 {
+    font-size:28px;
+    line-height: 0.8em;
+}
+h3 span {
+    font-size: 14px;
+}
+h3 a {
+    display: block;
+    text-decoration: none;
+    color:black;
+    margin-top: -10px;
+}
+.gnav{
+    float:right;
+    width:79%;
+}
+.gnav ul {
+    text-align: right;
+}
+.gnav ul li {
+    display: inline-block;
+    /*width:18%;*/
+    font-size:20px;
+
+}
+.gnav ul li a {
+    /*display:block;*/
+    text-align:center;
+    text-decoration: none;
+}
+.gnav ul li a span {
+    font-size:14px;
+    color:darkgrey;
+}
+.menu-btn {
+    /*background-color: cornsilk;*/
+    margin-top: 8px;
+    margin-left: 13px;
+}
+.menu-btn a {
+    color: #000;
+}
+.contact-btn {
+    /*width:180px;
+    height:40px;*/
+}
+.contact-btn a{
+    color:#fff;
+    display:block;
+    background-color: #000;
+    width:;
+    padding: 10px 17px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.header-img img{
+    width: 100%;
+    height:500px;
+}
+.header-img {
+    position: relative;
+}
+.header-img p {
+    position: absolute;
+    top:70%;
+    left:45%;
+    color:floralwhite;
+    font-size: 20px;
+}
+.header-img p span {
+    margin-left: 30px;
+    font-size: 30px;
+}
+/*------ /header ------*/
+
+/*----- サービス　-----*/
+h1 {
+    font-size: 30px;
+    display: flex;
+    align-items: center; /* 垂直中心 */
+    padding: 15px 0;
+}
+h1:before {
+    border-top: 1px solid;
+    content: "";
+    width: 3em; /* 線の長さ */
+    margin-right: 15px;
+}
+.survice-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.survice img {
+    width:50%;
+    height: 200px;
+    padding-top: 20px;
+    
+}
+.survice {
+    position: relative;
+    width: 30%;
+    height: 450px;
+    background-color: rgb(184, 184, 184);
+    margin: 0 20px 20px 0;
+    text-align: center;
+}
+.survice a {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    text-align: initial;
+    color: #000;
+}
+.induc {
+    float: left;
+}
+/*---- サービス -----*/
+
+/*----  help  ----*/　
+.contents {
+    height: 1500px;
+}
+
+.contents-item {
+    height: 450px;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+/*---- help　----s*/
+
+/*---- infomation ----*/
+.info {
+    background-color: darkgray;
+    height: 320px;
+}
+.info ul {
+    list-style: none;
+}
+.info li {
+    margin-left: 30px;
+    padding-bottom: 25px;
+    text-decoration: underline;
+    /*background-color: aqua;*/
+}
+
+.info a {
+    margin-left: 30px;
+    color: black;
+}
+.etc {
+    text-align: center;
+}
+.etc a {
+    border: solid 0.1em black;
+}
+.info-btn {
+    background-color: #fff;
+    padding: 5px 35px;
+    color: black;
+}
+.inq-wrapper {
+    height: 320px;
+}
+.inq-wrapper h2 {
+    margin-left: 80px;
+}
+.inq {/* */
+    height: 140px;
+}
+.inq-contents  {
+    list-style: none;
+}
+.inq-contents li a {
+    width: 200px;
+    border: solid black;
+    color: black;
+}
+.inq-btn-left {
+    float: left;
+    padding: 35px 70px;
+    margin-top: 23px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+.inq-btn-rights {
+    float: right;
+    padding: 35px 70px;
+    margin-top: 23px;
+    margin-right: 70px;
+    text-align: center;
+    background-color: #fff;
+}
+/*---- infomation ----*/
+
+/*----- footer  -----*/
+.footer-top{
+    position: relative;
+    height: 450px;
+    background-color: rgb(184, 184, 184);
+}
+.gnav-footer ul {
+    display: flex; /* 親要素に指定することで、Flexboxが適用される */
+	flex-direction: row; /* 左から右に横並び（デフォルト値なのでなくても可） */
+    justify-content: center; /* 中央揃え */
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+.gnav-footer li {
+    list-style: none;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-top: 60px;
+}
+.gnav-footer span {
+    font-size: 14px;
+    color:rgb(99, 97, 97);
+}
+.company {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+h4{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.company p {
+    margin-top: 0;
+}
+
+.footer-bottom {
+    height: 70px;
+    background-color: #000;
+}
+.pp a {
+    color: #fff;
+}
+.pp-left {
+    float: left;
+    margin: 20px 0 0 120px;
+}
+.pp-right {
+    float: right;
+    margin: 20px 80px 0 0;
+}
